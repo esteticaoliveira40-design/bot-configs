@@ -1,0 +1,17 @@
+{
+  "ativos": ["XAUUSD", "BTCUSD"],
+
+  "XAUUSD": {
+    "tp": 0.10,
+    "sl": -0.05,
+    "ordens": 4,
+    "lote": 0.01
+  },
+
+  "BTCUSD": {
+    "tp": 0.20,
+    "sl": -0.10,
+    "ordens": 2,
+    "lote": 0.01
+  }
+}
