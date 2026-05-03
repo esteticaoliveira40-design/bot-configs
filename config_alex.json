@@ -1,0 +1,18 @@
+{
+  "cliente": "alex",
+  "ativos": ["EURUSD", "XAUUSD", "BTCUSD"],
+
+  "lote": 0.01,
+  "max_ordens": 2,
+  "tempo_espera": 5,
+
+  "gerenciamento": {
+    "stop_individual": 20
+  },
+
+  "filtros": {
+    "EURUSD": { "spread_max": 0.0003 },
+    "XAUUSD": { "spread_max": 1.5 },
+    "BTCUSD": { "spread_max": 30 }
+  }
+}
