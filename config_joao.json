@@ -1,37 +1,27 @@
 {
-  "ativos": ["XAUUSD", "BTCUSD"],
+  "lote": 0.01,
+  "max_ordens": 2,
+  "tempo_espera": 5,
+
+  "ativos": [
+    "EURUSD",
+    "XAUUSD",
+    "BTCUSD"
+  ],
 
   "gerenciamento": {
-    "lucro_ativacao": 0.10,
-    "recuo_fechamento": 0.5
+    "stop_individual": 20
   },
 
-  "risco": {
-    "meta_dia": 20,
-    "stop_dia": -10,
-    "pausar_apos_meta": true
-  },
-
-  "tempo": {
-    "delay_loop": 5,
-    "delay_ordem": 2
-  },
-
-  "XAUUSD": {
-    "lote": 0.01,
-    "ordens": 4,
-    "tipo": "buy",
-    "tp": 0.10,
-    "sl": 0.05,
-    "ativo": true
-  },
-
-  "BTCUSD": {
-    "lote": 0.01,
-    "ordens": 2,
-    "tipo": "buy",
-    "tp": 0.10,
-    "sl": 0.05,
-    "ativo": true
+  "filtros": {
+    "EURUSD": {
+      "spread_max": 0.0003
+    },
+    "XAUUSD": {
+      "spread_max": 1.5
+    },
+    "BTCUSD": {
+      "spread_max": 30
+    }
   }
 }
