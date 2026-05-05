@@ -7,7 +7,7 @@
   "tempo_espera": 5,
 
   "gerenciamento": {
-    "stop_individual": 20
+    "stop_individual": 15
   },
 
   "filtros": {
