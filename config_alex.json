@@ -2,7 +2,7 @@
   "cliente": "alex",
   "ativos": ["EURUSD", "XAUUSD", "BTCUSD"],
 
-  "lote": 0.03,
+  "lote": 0.05,
   "max_ordens": 2,
   "tempo_espera": 5,
 
